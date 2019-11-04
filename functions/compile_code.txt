@@ -1,0 +1,3 @@
+g++ -o {file}.exe {fullpath}.cpp
+e.g 
+g++ -o foo.exe .\foo.cpp
