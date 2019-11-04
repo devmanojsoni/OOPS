@@ -1,6 +1,7 @@
 log.txt
 /dir2
 *.exe
+*.out
 /.vscode
 .vscode
 lauch.json
