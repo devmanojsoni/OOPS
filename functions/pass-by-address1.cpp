@@ -5,7 +5,8 @@ using namespace std;
 /* Created by Manoj Soni on Wednesday, November 06, 2019  */
 /* Description: Pass by Address Example in C++  */
 
-void swap(int *a, int *b){
+// a is pointing to x & b is pointing to y, rest you know
+void swap(int *a, int *b){ // actual parameters will be changed
     int temp;
     temp=*a;
     *a=*b;
@@ -16,7 +17,7 @@ int main() {
   
   /*Code here*/
   int x=1, y=2;
-  swap(&x,&y);
+  swap(&x,&y); // passing the addresses to the pointer parameters of swap functions
   cout<<x<<" "<<y<<endl;
   
   //getchar(); // use getch(); in C if not using MingGW Compiler
