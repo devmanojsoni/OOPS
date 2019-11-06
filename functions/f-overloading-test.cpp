@@ -3,7 +3,7 @@
 using namespace std;
 
 /* Created by Manoj Soni on Monday, November 04, 2019  */
-/* Description: Test your knowledge  */
+/* Description: Intentionally left with error: Test your knowledge  */
 
 // Which of the overloaded functions are same / diffrent
 
@@ -19,7 +19,7 @@ float max(int x, int y){}
 // Intentionally left with error
 // Look carefully at A and D, FUNCTION NAMES ARE SAME, ARGUMENTS ARE SAME
 // therefore they are same, b,coz return types are never considered
-// RETURN TYPE IS NEVER CONSIDERED IN FUNCTION OBVERLOADING
+// RETURN TYPE IS NEVER CONSIDERED IN FUNCTION OVERLOADING
 // IF NAME and PARAMS DATA TYPES ARE SAME, then its all same!!
 
 int main() {
